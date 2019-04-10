@@ -1,0 +1,98 @@
+{
+	"user_id" : "ss",
+
+	"messages" : "9",
+
+	"notifications" : "10",
+
+	"tags" : ["React" , "JavaScript" , "Coding" , "MachineLearning" , "UnityGameDev" , "Node.js" , "JavaEE" ,
+      "SpringFramework"
+	],
+
+	"User_Profile" : {
+		"image_link" : "/external/Image/Person1.jpg",
+		"Name" : "Sandeep Sharma",
+		"Post" : "Director at Apple inc.",
+		"Address" : "Sri gangnagar rajsthan, India"
+	},
+
+	"Connections" : {
+		"Connections" : "2443",
+		"Followers" : "4533",
+		"Global_Ranks" : "45532",
+		"Global_Reach" : "433"
+	},
+
+	"Social_Meadia" : {
+		"Fb" : "http://www.facebook.com/sandeep",
+		"Twit" : "http://www/twitter.com/sandeep",
+		"Git" : "http://www/github.com/sandeep",
+		"pintrest" : "http://www/pintrest.com/sandeep"
+	},
+
+	"User_About" : {
+		"Text" : "Build customer trust by giving everyone in your company a professional email address at your domain, like susan@yourcompany and joe@yourcompany. Also create group mailing lists, like sales@yourcompany. ",
+
+		"Experience" : [
+			{
+				"From" : "2013",
+			    "To" : "2015",
+			    "Company_Name" : "google",
+			    "Place" : "silicon Valley"
+			},
+
+			{
+				"From" : "2015",
+			    "To" : "2017",
+			    "Company_Name" : "Face_Book",
+			    "Place" : "silicon Valley"
+			}
+
+		],
+
+		"Educational" : [
+			{
+				"Organization_Name" : "K.M Public school",
+				"Place" : "Agra"
+			},
+
+			{
+				"Organization_Name" : "National Institute Of Technology",
+				"Place" : "Uttrakhand, Srinagar"
+			}
+
+		],
+
+		"Acheivements" : [
+			{
+				"Name" : "Jee Mains",
+				"Place" : "2014"
+			},
+
+			{
+				"Name" : "Hackathon",
+				"Place" : "2018"
+			}
+
+		]
+			
+
+
+	},
+
+
+	"Friends" : [
+
+		{
+			"Name" : "Prachi Pandey",
+			"About" : "nationol@nituk.ac.in"
+		},
+
+		{
+			"Name" : "Gagan Sharma",
+			"About" : "nationoll@nituk.ac.in"
+		}
+
+	]
+
+}

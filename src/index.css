@@ -1,0 +1,150 @@
+body {
+  margin: 0 !important; 
+  padding: 0 !important;
+}
+
+@font-face {
+  font-family: 'forhed';
+  src: url('./external/fonts/sf-ui-display-light-58646b33e0551.otf')format("opentype");
+}
+
+@font-face{
+  font-family: 'fortext';
+  src: url('./external/fonts/SFUIText-Light.ttf');
+}
+
+.HED{
+  font-family: 'forhed';
+}
+
+.TEXT{
+  font-family: 'fortext';
+}
+
+.navlinkpadding{
+  padding-left: 10% !important;
+}
+
+.mycontainer{
+  padding: 5px 5% 5px 5% !important;
+}
+
+.normgap{
+  margin-right: 20% !important;
+}
+
+.marg-top{
+  margin-top: 30px !important;
+}
+
+.marg-right{
+  margin-right: 10px !important;
+}
+
+.marg-bottom{
+  margin-bottom: 30px !important;
+}
+
+.pad-bottom{
+  padding-bottom: 30px !important;
+}
+
+.pad-top{
+  padding-top: 30px !important;
+}
+
+.sharptext{
+  font-size: 14px !important;
+  font-weight: 1px !important;
+}
+
+.mycenter{
+  text-align: center !important;
+}
+
+.profilediv{
+  display: inline-block !important;
+}
+
+.logoimg{
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.subcontent{
+  margin-top: 10px !important;
+  margin-bottom: 0px !important;
+}
+
+.mdtext{
+  font-size: 13px;
+}
+
+.lgtext{
+  font-size: 20px;
+}
+
+.smtext{
+  font-size: 10px !important;
+}
+
+p{
+  margin-bottom: 0 !important;
+}
+
+.smmarge{
+ margin: 0 5px 0 5px !important;
+}
+
+.myprofilefield{
+  padding: 50px 0 50px 0 !important;
+  background-image: url("back3.jpg");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+
+.fullw{
+   overflow-x: hidden !important;
+}
+
+.black-text{
+  color: black !important;
+}
+
+.myicon{
+  font-weight: 50px !important;
+}
+
+.nopad{
+  padding: 0px !important;
+}
+
+.nomarge{
+  margin: 0px !important;
+}
+
+.greyback{
+  background-color: #f8f9fa;
+}
+
+.transback{
+  background-color: transparent !important;
+}
+
+.Black-text{
+  color: black;
+}
+
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+
+
+.light-blue{
+  background-color: #a469ff;
+}
