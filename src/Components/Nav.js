@@ -16,8 +16,15 @@ const Mynav = (props) => {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto navlinkpadding">
                 <Nav.Link href="#home" className = "normgap sharptext">Home</Nav.Link>
-                <Nav.Link href="#link" className = "normgap sharptext">Link</Nav.Link>
-                <NavDropdown title="Dropdown" className = "normgap sharptext" id="basic-nav-dropdown">
+                <Nav.Link href="#link" className = "normgap sharptext">TimeLine</Nav.Link>
+                <NavDropdown title="Acount Setting" className = "normgap sharptext" id="basic-nav-dropdown">
+                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                    <NavDropdown.Divider />
+                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                </NavDropdown>
+                <NavDropdown title="More Pages" className = "normgap sharptext" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
@@ -39,11 +46,11 @@ const Mynav = (props) => {
                         </Nav.Link>
 
                         <Nav.Link href="#deets" className = "sharptext">
-                        <Badge variant="info"> <FontAwesomeIcon icon="sticky-note" /> {props.messages}</Badge>
+                        <Badge variant="dark"> <FontAwesomeIcon icon="sticky-note" /> {props.messages}</Badge>
                         </Nav.Link>
 
                         <Nav.Link href="#deets" className = "sharptext">
-                        <FontAwesomeIcon icon="globe-asia" />
+                        <FontAwesomeIcon className = "green-text" icon="globe-asia" />
                         </Nav.Link>
                        
                 </Nav>

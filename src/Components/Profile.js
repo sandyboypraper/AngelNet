@@ -12,7 +12,7 @@ const Profile = (props) => {
     return(
         <div>
              <Row className = "myprofilefield">
-                <Col md lg ={{ span: 6, offset: 3 }} sm="12" >
+                <Col className = "overlay">
                     <div className="mycenter" >
 
                          <Image className = "logoimg" src= {personimg} roundedCircle />
@@ -24,7 +24,7 @@ const Profile = (props) => {
 
                          <p className = "TEXT smtext">{user_profile.Address}</p>
 
-                          <p><FontAwesomeIcon icon="globe-asia" /> {connections.Connections} </p>
+                          <p><FontAwesomeIcon className = "green-text" icon="globe-asia" /> {connections.Connections} </p>
 
                           <span><Button className = "sharptext" variant="info">Connect</Button></span>
                           <span className = "smmarge"><Button className = "sharptext" variant="info">Following</Button></span>

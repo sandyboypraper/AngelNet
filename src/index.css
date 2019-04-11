@@ -22,7 +22,7 @@ body {
 }
 
 .navlinkpadding{
-  padding-left: 10% !important;
+  padding-left: 5% !important;
 }
 
 .mycontainer{
@@ -30,7 +30,7 @@ body {
 }
 
 .normgap{
-  margin-right: 20% !important;
+  margin-right: 10% !important;
 }
 
 .marg-top{
@@ -92,16 +92,31 @@ p{
   margin-bottom: 0 !important;
 }
 
+/*md lg ={{ span: 6, offset: 3 }}*/
+
 .smmarge{
  margin: 0 5px 0 5px !important;
 }
 
 .myprofilefield{
+  position: relative;
+  top: 0px;
+  left: 0px;
   padding: 50px 0 50px 0 !important;
   background-image: url("back3.jpg");
+  height: 250px;
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
+}
+
+.marg-top-md{
+  margin-top : 200px !important;
+}
+
+.overlay{
+  position: absolute;
+  top: 100px;
 }
 
 
@@ -147,4 +162,20 @@ p{
 
 .light-blue{
   background-color: #a469ff;
+}
+
+.green-text{
+  color: green
+}
+
+.no-top-pad{
+  padding-top: 0 !important;
+}
+
+.float-right{
+  float: right;
+}
+
+.marg-top-sm{
+  margin-top: 5px !important;
 }

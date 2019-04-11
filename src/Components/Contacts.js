@@ -57,12 +57,12 @@ class Contacts extends Component{
 				<Card.Body>
 				   
 				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Help Center | </a></span>
-				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Help Center | </a></span>
-				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Help Center | </a></span>
-				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Help Center | </a></span>
-				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Help Center | </a></span>
-				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Help Center | </a></span>
-				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Help Center  </a></span>
+				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> About | </a></span>
+				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Privacy Policy | </a></span>
+				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Comunity Guidelines | </a></span>
+				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Cookies Policy | </a></span>
+				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> Career | </a></span>
+				   <span className = "TEXT sharptext" > <a href = "#" className = "Black-text"> language  </a></span>
 				  
 				  
 				   <h5 className = "HED sharptext marg-top text-right"> <FontAwesomeIcon className = "marg-right" icon="copyright" />Copyright</h5>

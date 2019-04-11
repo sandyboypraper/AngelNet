@@ -9,14 +9,17 @@ import Socialinfo from './Components/socialinfocard.js';
 import About from './Components/About.js';
 import Contacts from './Components/Contacts.js';
 import Footer from './Components/Footer.js';
+import PortFolio from './Components/PortFolio.js';
 
 import {User_Profile , Connections , User_About , messages , notifications , Social_Meadia , tags , Friends} from './DemoData.json';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch, faHome , faBell, faStickyNote, faGlobeAsia ,faMapMarkerAlt , faClock , faCopyright} from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSearch , faHome , faBell , faStickyNote , faGlobeAsia , faMapMarkerAlt , faClock , faCopyright)
+
+import { faSearch, faImages ,faHome , faBell, faStickyNote, faGlobeAsia ,faMapMarkerAlt , faClock , faCopyright} from '@fortawesome/free-solid-svg-icons'
+
+library.add(faSearch , faImages , faHome , faBell , faStickyNote , faGlobeAsia , faMapMarkerAlt , faClock , faCopyright)
 
 class App extends Component {
 
@@ -39,8 +42,12 @@ class App extends Component {
                   </Col>
                 </Row>
 
-                <Row>
+
+
+                <Row className = "marg-top-md">
+
                   <Col sm = {12} md = {12} lg = {12}>
+                   <hr />
                    <Navs />
                   </Col>
 
@@ -61,7 +68,12 @@ class App extends Component {
                   </Col>
 
                   <Col sm = {12} md = {12} lg = {3}>
+                  <PortFolio />
+
+                  <div className = "marg-top">
                   <Contacts friends = {Friends} />
+                  </div>
+
                   </Col>
 
               </Row>
